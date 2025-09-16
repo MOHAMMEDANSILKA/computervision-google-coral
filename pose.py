@@ -4,6 +4,7 @@ import re
 import PIL
 import argparse
 from functools import partial
+
 from collections import deque
 
 import numpy as np
