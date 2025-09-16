@@ -12,6 +12,7 @@ import scipy.ndimage
 import scipy.misc
 from PIL import Image
 
+
 import gstreamer
 from pose_engine import PoseEngine, EDGES, BODYPIX_PARTS
 
