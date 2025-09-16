@@ -15,6 +15,7 @@ import gstreamer
 from pose_engine import PoseEngine, EDGES, BODYPIX_PARTS
 
 # Color mapping for bodyparts
+
 RED_BODYPARTS = [k for k,v in BODYPIX_PARTS.items() if "right" in v]
 GREEN_BODYPARTS = [k for k,v in BODYPIX_PARTS.items() if "hand" in v or "torso" in v]
 BLUE_BODYPARTS = [k for k,v in BODYPIX_PARTS.items() if "leg" in v or "arm" in v or "face" in v or "hand" in v]
