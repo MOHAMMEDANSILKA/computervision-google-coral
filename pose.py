@@ -152,6 +152,7 @@ def main():
     src_size = (int(args.width), int(args.height))
     if args.videosrc.startswith('/dev/video'):
         print('Source size: {}'.format(src_size))
+        
 
     gstreamer.run_pipeline(Callback(engine,
                                     anonymize=args.anonymize,
